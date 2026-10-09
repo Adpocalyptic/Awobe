@@ -2432,7 +2432,7 @@ version = "2.3.0"
 source = "registry+https://github.com/rust-lang/crates.io-index"
 checksum = "f057a694a54f12365049b0958a1685bb52d567f5593b355fbf685838e873d400"
 dependencies = [
- "crossbeam-utils 0.8.20",
+ "crossbeam-utils 0.8.23",
 ]
 
 [[package]]
@@ -2776,7 +2776,7 @@ version = "0.5.13"
 source = "registry+https://github.com/rust-lang/crates.io-index"
 checksum = "33480d6946193aa8033910124896ca395333cae7e2d1113d1fef6c3272217df2"
 dependencies = [
- "crossbeam-utils 0.8.20",
+ "crossbeam-utils 0.8.23",
 ]
 
 [[package]]
@@ -2787,7 +2787,7 @@ checksum = "ce6fd6f855243022dcecf8702fef0c297d4338e226845fe067f6341ad9fa0cef"
 dependencies = [
  "cfg-if 1.0.0",
  "crossbeam-epoch",
- "crossbeam-utils 0.8.20",
+ "crossbeam-utils 0.8.23",
 ]
 
 [[package]]
@@ -2798,7 +2798,7 @@ checksum = "ae211234986c545741a7dc064309f67ee1e5ad243d0e48335adc0484d960bcc7"
 dependencies = [
  "autocfg",
  "cfg-if 1.0.0",
- "crossbeam-utils 0.8.20",
+ "crossbeam-utils 0.8.23",
  "memoffset 0.9.0",
  "scopeguard",
 ]
@@ -2810,7 +2810,7 @@ source = "registry+https://github.com/rust-lang/crates.io-index"
 checksum = "d1cfb3ea8a53f37c40dea2c7bedcbd88bdfae54f5e2175d6ecaff1c988353add"
 dependencies = [
  "cfg-if 1.0.0",
- "crossbeam-utils 0.8.20",
+ "crossbeam-utils 0.8.23",
 ]
 
 [[package]]
@@ -2826,9 +2826,9 @@ dependencies = [
 
 [[package]]
 name = "crossbeam-utils"
-version = "0.8.20"
+version = "0.8.23"
 source = "registry+https://github.com/rust-lang/crates.io-index"
-checksum = "22ec99545bb0ed0ea7bb9b8e1e9122ea386ff8a48c0922e43f36d45ab09e0e80"
+checksum = "a31eee39dddec8330830986fcd7625edb5a24ec90ea038215273bbc3adb08ac6"
 
 [[package]]
 name = "crunchy"
@@ -9772,7 +9772,7 @@ source = "registry+https://github.com/rust-lang/crates.io-index"
 checksum = "1465873a3dfdaa8ae7cb14b4383657caab0b3e8a0aa9ae8e04b044854c8dfce2"
 dependencies = [
  "crossbeam-deque",
- "crossbeam-utils 0.8.20",
+ "crossbeam-utils 0.8.23",
 ]
 
 [[package]]
@@ -15179,7 +15179,7 @@ dependencies = [
  "cookie 0.18.1",
  "core-foundation 0.9.4",
  "core-foundation-sys",
- "crossbeam-utils 0.8.20",
+ "crossbeam-utils 0.8.23",
  "crypto-common",
  "deranged",
  "derive_more",
@@ -15612,7 +15612,7 @@ dependencies = [
  "bzip2",
  "constant_time_eq 0.1.5",
  "crc32fast",
- "crossbeam-utils 0.8.20",
+ "crossbeam-utils 0.8.23",
  "flate2",
  "hmac 0.12.1",
  "pbkdf2 0.11.0",
@@ -15629,7 +15629,7 @@ checksum = "9cc23c04387f4da0374be4533ad1208cbb091d5c11d070dfef13676ad6497164"
 dependencies = [
  "arbitrary",
  "crc32fast",
- "crossbeam-utils 0.8.20",
+ "crossbeam-utils 0.8.23",
  "displaydoc",
  "flate2",
  "indexmap 2.9.0",
@@ -15648,7 +15648,7 @@ dependencies = [
  "bzip2",
  "constant_time_eq 0.3.0",
  "crc32fast",
- "crossbeam-utils 0.8.20",
+ "crossbeam-utils 0.8.23",
  "deflate64",
  "displaydoc",
  "flate2",
