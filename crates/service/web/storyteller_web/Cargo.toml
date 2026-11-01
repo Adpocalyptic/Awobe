@@ -148,13 +148,13 @@ actix-rt = "2.10.0"
 actix-service = "2.0.2"
 actix-utils = "3.0.1"
 actix-web = "4.7.0"
-actix-web-lab = "0.20.2"
+actix-web-lab = "0.22.0"
 
 # Money
 async-stripe = { version = "0.26.0", default-features = false, features = ["runtime-tokio-hyper", "connect", "billing", "checkout", "webhook-events"] }
 
 # Crypto
-magic-crypt = "3.1.13" # encrypting sort IDs for the frontend so we don't leak info
+magic-crypt = "5.0.0" # encrypting sort IDs for the frontend so we don't leak info
 md-5 = "0.10.6" # gravatar
 sha2 = "0.9.9" # file hashes, inference text hashes, etc.
 
@@ -177,7 +177,7 @@ utoipa = { version = "4", features = ["chrono","actix_extras"] }
 utoipa-swagger-ui = { version = "7", features = ["actix-web"] }
 
 # TODO: move zip pieces into a separate library that encapsulates calls to this lib
-zip = "0.6.6"
+zip = "2.1.3"
 actix-web-actors = "4.3.0"
 actix = "0.13.5"
 
